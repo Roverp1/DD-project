@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Person A's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="person-a-styles.css" />
+  </head>
+  <body>
+    <!-- 
+    PERSON A'S PAGE
+    Look at the example website and build your own portfolio page!
+    Focus on: personal info, skills, projects, contact form
+    -->
+    
+    <header>
+      <nav>
+        <div class="logo">Person A's Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="person-a-page.html">Person A</a></li>
+          <li><a href="person-b-page.html">Person B</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <h1>Hi, I'm Person A</h1>
+        <p>A passionate developer learning to build amazing websites</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+      </section>
+
+      <!-- About section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a beginner web developer excited about creating digital experiences.
+              I love learning new technologies and solving problems through code.
+            </p>
+            <br />
+            <p>
+              When I'm not coding, you can find me reading tech blogs, experimenting
+              with new tools, or collaborating with my learning partner on exciting projects.
+            </p>
+            <br />
+            <p>
+              <strong>Currently learning:</strong> HTML, CSS, and the fundamentals 
+              of responsive web design.
+            </p>
+          </div>
+          <div class="profile-image">
+            <img
+              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+              alt="Person A"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <p>
+              Learning to create semantic, well-structured web pages with proper
+              markup and accessibility in mind.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <p>
+              Developing skills in styling, layouts, and responsive design to make
+              websites look great on all devices.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Problem Solving</h3>
+            <p>
+              Building logical thinking skills to break down complex challenges
+              into manageable pieces.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3>Collaboration</h3>
+            <p>
+              Learning to work effectively with others using version control
+              and communication tools.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Learning Portfolio</h3>
+            <p>
+              My first portfolio website built with HTML and CSS. Features responsive
+              design and clean, modern styling.
+            </p>
+            <br />
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+          <div class="project-card">
+            <h3>Collaborative Website</h3>
+            <p>
+              A multi-page website built together with my learning partner,
+              showcasing our individual progress and teamwork.
+            </p>
+            <br />
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+          <div class="project-card">
+            <h3>Practice Exercises</h3>
+            <p>
+              Collection of small coding exercises and experiments as I learn
+              new HTML and CSS concepts and techniques.
+            </p>
+            <br />
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2>Let's Connect</h2>
+        <p style="text-align: center; margin-bottom: 30px;">
+          I'd love to hear from you! Whether it's about learning, projects, or just to say hello.
+        </p>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Person A. Part of the collaborative learning project.</p>
+    </footer>
+  </body>
+</html>
